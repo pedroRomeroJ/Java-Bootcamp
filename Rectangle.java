@@ -2,11 +2,11 @@ import java.util.Scanner;
 
 public class Rectangle {
     public static void main(String[] args) {
-        //calculate are of a rectagle
+        //calculate are of a rectangle
 
-        double width = 0;
-        double height = 0;
-        double area = 0;
+        double width ;
+        double height ;
+        double area ;
 
         Scanner scanner = new Scanner(System.in);
 
@@ -18,7 +18,7 @@ public class Rectangle {
 
         area = width * height;
 
-        System.out.print("Arean of the rectangle is: " + area + "cm²");
+        System.out.print("Area of the rectangle is: " + area + "cm²");
 
 
         scanner.close();
